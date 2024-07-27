@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(0, 132, 255);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:visited{
+            color: darkblue
+        }
+
+        a:active{
+            color: rgb(89, 0, 255);
+        }
+
+        .especial{
+            background-color: rgb(255, 0, 0);
+            color: white;
+        }
+
+        .especial::before{
+            content:'.';
+        }
+
+        .especial::after{
+            content:'.';
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/kaualoch1" target="_blank" type="external" class="especial">Github</a></li>
+        <li><a href="https://www.instagram.com/kaualoch1/" target="_blank" type="external">Instagram</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Gv0qo3pNPm8" target="_blank" type="external">Youtube</a></li>
+    </ul>
+</body>
+</html>

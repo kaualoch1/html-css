@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas Absolutass
+            cm, mm, in, px, pt, pc
+            
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            geralmente 16px = 1em
+            */
+            font-size: 1em;
+            /* Existe ligther, normal, bold, bolder */
+
+    
+        }
+
+        h1{
+            /*Shorthand, vai dar uma "mãozinha"
+            
+            font-size: 2.3em;
+            font-weight: bolder;
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+
+            -font-style -> font weight -> font-size -> font-family (sequência shorthand)
+            */   
+            font: italic bolder 2.3em Arial, Helvetica, sans-serif;
+        }
+
+        h2{
+            font: bold 1.5em Verdana, Tahoma, sans-serif;
+            text-decoration: underline;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam in vero quae odit omnis odio sapiente consequuntur maxime corporis eveniet quo reiciendis, cum cumque, numquam tempore a quasi modi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita veritatis itaque, consequuntur et dolore, ipsa quia eius at a assumenda omnis ea. Repellendus distinctio doloremque praesentium dolores. Iste, accusantium a.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique debitis quisquam quam aliquid deserunt quidem molestias eius minus cumque autem possimus facere accusamus illo, quas tenetur reiciendis quos, mollitia voluptas.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis id, nemo tempora, quae praesentium ducimus, maiores accusantium veniam aliquam natus pariatur. Nam iste vel recusandae voluptatem magni architecto voluptatibus sequi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, incidunt ipsam. Maiores, sint assumenda. Deserunt amet veritatis asperiores aliquid dolores delectus perspiciatis. Alias id quia ipsum magnam. Vitae, iste ullam?</p>
+</body>
+</html>
