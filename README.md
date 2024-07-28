@@ -2,6 +2,7 @@
  Curso de HTML5 e CSS3 do Guanabara
 
 <a href="https://kaualoch1.github.io/html-css/M%C3%B3dulo%201%20-%20Guanabara/Exerc%C3%ADcios/ex001/"> Exercício 1 </a>
+<br>
 <a href="https://kaualoch1.github.io/html-css/M%C3%B3dulo%201%20-%20Guanabara/Exerc%C3%ADcios/ex002/"> Exercício 2 </a>
 <a href="https://kaualoch1.github.io/html-css/M%C3%B3dulo%201%20-%20Guanabara/Exerc%C3%ADcios/ex003/"> Exercício 3 </a>
 <a href="https://kaualoch1.github.io/html-css/M%C3%B3dulo%201%20-%20Guanabara/Exerc%C3%ADcios/ex004/"> Exercício 4 </a>
