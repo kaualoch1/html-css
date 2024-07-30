@@ -3,34 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astronauta</title>
+    <title>Astro</title>
     <style>
-
         * {
-            margin: 0px;
             padding: 0px;
+            margin: 0px;
         }
 
-        main{
-            max-width: 1080px;
-            max-height: 1920px;
+        #container{
+            height: 100vh;
+            background: black url(imagens/espaco.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
-        main img{
-            background-color: aqua;
-            width: 50%;
-            margin: auto;
-            justify-content: center;
+        #conteudo{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <!-- <img src="imagens/espaco.jpg" alt="espaço" class="espaco"> -->
-        <main>
-            <picture>
-                <img src="imagens/astronauta.png" alt="" class="astro">
-            </picture>
-        </main>
-
+    <section id="container">
+        <article id="conteudo">
+            <img src="imagens/astronauta.png" alt="">
+        </article>
+    </section>
 </body>
 </html>
